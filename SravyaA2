@@ -71,3 +71,83 @@ elif(age<=19):
     print("teenage")
 else:
     print("adult")
+
+#To check the grade using marks
+
+marks=int(input("enter your marks:"))
+if(marks>=90):
+    print("Grade is a-excellent")
+elif(marks>=70):
+    print("Grade is b-very good")
+elif(marks>=50):
+    print("Grade is c-good")
+elif(marks>=40):
+    print("Grade is d-bad")
+else:
+    print("fail")
+
+#To check username and password credential
+
+user="sravya"
+password=1234
+username=(input("enter your username:"))
+password=int(input("enter the password"))
+if username==user and password==password:
+    print("Login successful")
+else:
+    print("Login failed")
+
+#To check month days
+
+month=int(input("enter the month 1-12:"))
+if(month==2):
+    print("28 or 29 days")
+elif (month ==1,3,5,7,10,12):
+    print("31 days")
+elif (month==4,6,9,11):
+    print("30 days")
+else:
+    print("invalid months")
+
+#To print week of the day
+
+day=int(input("enter the day1-7:"))
+if(day==1):
+    print("monday")
+elif(day==2):
+    print("tuesday")
+elif(day==3):
+    print("wednesday")
+elif(day==4):
+    print("thursday")
+elif(day==5):
+    print("friday")
+elif(day==6):
+    print("saturday")
+else:
+    print("sunday")
+
+#To print name
+
+print("Sravya")
+
+# swap 2 numbers using 3rd variable
+
+a=10;
+b=20;
+temp=a
+a=b
+b=temp;
+print("after swapping:",a)
+print("after swapping:",b)
+
+#To check body temperature
+temp=int(input("enter the temp:"))
+if(temp<96.0):
+    print("cold")
+elif(temp==98.4):
+    print("Normal")
+elif(temp>99.9):
+    print("fever")
+else:
+    print("invalid")
