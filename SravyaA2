@@ -5,3 +5,54 @@ b=float(input("number2="))
 c=float(input("number3="))
 largest_number=max(a,b,c)
 print("greatest number=",largest_number)
+
+#even numbers
+
+n=(int(input("enter a number:")))
+sum=n*(n+1)
+print("sum is:",sum)
+
+#odd numbers
+
+n=(int(input("enter a number:")))
+sum=n**2
+print("sum is:",sum)
+
+#Arithmetic operations
+a=10
+b=20
+print("addition",a+b)
+print("subtraction",a-b)
+print("multiplication",a*b)
+print("modular division",a%b)
+
+#Logical operations
+a=10
+b=20
+print(a>0 and b>0)
+print(a>10 or b>10)
+print(not(a==0 and b==0))
+
+#positive,negative,zero
+
+a=int(input("enter a number:"))
+if(a>0):
+    print("positive")
+elif(a<0):
+    print("negative")
+elif(a==0):
+    print("zero")
+else:
+    print("error")
+
+#positive,negative,zero
+
+a=int(input("enter a number:"))
+if(a>0):
+    print("positive")
+elif(a<0):
+    print("negative")
+elif(a==0):
+    print("zero")
+else:
+    print("error")
