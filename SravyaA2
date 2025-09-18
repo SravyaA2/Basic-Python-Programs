@@ -56,3 +56,18 @@ elif(a==0):
     print("zero")
 else:
     print("error")
+
+#To check if number is divible by 5 and 11
+
+n=int(input("enter a number:"))
+print(n%5==0 and n%11==0)
+
+#To check age group 
+
+age=int(input("enter your age:"))
+if(age<13):
+    print("child")
+elif(age<=19):
+    print("teenage")
+else:
+    print("adult")
