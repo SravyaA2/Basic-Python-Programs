@@ -1,0 +1,43 @@
+def integers(m,n):
+    if m>n:
+        return 0
+        total=0
+        for i in range (m,n+1):
+            total+=i**3
+        return total
+m=2        
+n=6     
+result=integers(m,n)
+print("Sum of cubes from",m,"to",n,"=",result) 
+
+
+def product_of_odds(m,n):
+    if m>n:
+        return 0
+    product=1
+    found=False
+    for num in range(m,n+1):
+        if num%2!=0:
+            product*=num
+            found=True
+    return product if found else 0
+    
+m,n=2,6
+result=product_of_odds(m,n)
+print(f"Product of odd numbers from {m} to {n} is:",result)
+
+
+def product_of_evens(m,n):
+    if m>n:
+        return 0
+    product=1
+    found=False
+    for num in range(m,n+1):
+        if num%2==0:
+            product*=num
+            found=True
+    return product if found else 0
+    
+m,n=2,10
+result=product_of_evens(m,n)
+print(f"Product of even numbers from {m} to {n} is:",result)
